@@ -198,7 +198,7 @@ def high_boost(f, c = 1.0, n_blur = 3):
     g_hb = f_d + c * mascara # g_hb = high booost
     return clip_image(mascara), clip_image(g_hb)
 
-caminho_imagem = 'lena_color.tif'
+caminho_imagem = 'legumes.tiff'
 
 imagem_pil = Image.open(caminho_imagem).convert('L') # converte para escala de cinza
 
@@ -227,6 +227,6 @@ mascara_hb, img_agucada = high_boost(f, c = 1.0, n_blur = 3)
 # Image.fromarray(img_mediana).save('Imagem mediana.png')
 # Image.fromarray(img_binaria).save('Imagem binaria.png')
 # Image.fromarray(img_agucada).save("Imagem agucada.png")
-Image.fromarray(img_contraste).save("Image contraste.png")
-Image.fromarray(mascara_hb).save("Image mascara_hb.png")
-Image.fromarray(img_agucada_lap).save("Image agucada_lap.png")
+# Image.fromarray(img_contraste).save("Image contraste.png")
+# Image.fromarray(mascara_hb).save("Image mascara_hb.png")
+# Image.fromarray(img_agucada_lap).save("Image agucada_lap.png")
