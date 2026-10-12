@@ -55,4 +55,4 @@ Para executar este projeto, você precisará de **Python 3.8+** instalado.
 Você pode instalar as dependências via `pip`:
 
 ```bash
-pip install numpy pillow
+pip install numpy pillow streamlit
