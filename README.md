@@ -50,6 +50,7 @@ Para executar este projeto, você precisará de **Python 3.8+** instalado.
 ### Bibliotecas necessárias:
 * `numpy`
 * `pillow`
+* `Streamlit`
 
 Você pode instalar as dependências via `pip`:
 
